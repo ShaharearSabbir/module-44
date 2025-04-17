@@ -1,0 +1,78 @@
+[
+    {
+      "planName": "Basic",
+      "price": 9.99,
+      "currency": "USD",
+      "features": [
+        "Access to core features",
+        "Up to 5 projects",
+        "Limited storage (1GB)",
+        "Community support"
+      ],
+      "description": "dfrefgfdvrtbyrtvh rth tey jhb tyvh jrthetr ch rth e tr thrt",
+      "options": {
+        "storageUpgrade": {
+          "label": "Upgrade Storage",
+          "options": [
+            {"value": 5, "price": 4.99, "description": "5GB additional storage"},
+            {"value": 10, "price": 8.99, "description": "10GB additional storage"}
+          ]
+        },
+        "prioritySupport": {
+          "label": "Priority Support",
+          "price": 2.99,
+          "description": "Get faster response times"
+        }
+      }
+    },
+    {
+      "planName": "Pro",
+      "price": 29.99,
+      "currency": "USD",
+      "features": [
+        "All Basic features",
+        "Unlimited projects",
+        "10GB storage",
+        "Priority email support",
+        "Team collaboration"
+      ],
+      "description": "dfrefgfdvrtbyrtvh rth tey jhb tyvh jrthetr ch rth e tr thrt",
+      "options": {
+        "additionalUsers": {
+          "label": "Add Users",
+          "pricePerUser": 5.99,
+          "description": "Add additional team members"
+        },
+        "dedicatedServer": {
+          "label": "Dedicated Server",
+          "price": 49.99,
+          "description": "Dedicated server for enhanced performance"
+        }
+      }
+    },
+    {
+      "planName": "Enterprise",
+      "price": 99.99,
+      "currency": "USD",
+      "features": [
+        "All Pro features",
+        "Unlimited storage",
+        "24/7 phone support",
+        "Custom integrations",
+        "Dedicated account manager"
+      ],
+      "description": "dfrefgfdvrtbyrtvh rth tey jhb tyvh jrthetr ch rth e tr thrt",
+      "options": {
+        "customFeatures": {
+          "label": "Custom Features",
+          "description": "Contact us for custom feature development",
+          "contactRequired": true
+        },
+        "onPremiseDeployment": {
+          "label": "On-Premise Deployment",
+          "description": "Deploy on your own infrastructure",
+          "contactRequired": true
+        }
+      }
+    }
+  ]
